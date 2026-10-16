@@ -1,0 +1,62 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+
+# Testing and coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+*.sublime*
+.vscode-test/
+
+# IDE files
+.idea/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.backup
+*.bak
+**/*.backup.*
+**/*.back.*
+
+# Package archives
+*.tgz
+
+# Optional framework output
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
